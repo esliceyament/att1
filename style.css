@@ -1,0 +1,48 @@
+.umumi {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+
+  .bolmeler {
+    row-gap: 20px;
+    width: 30vw;
+    border-right: 5px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+  }
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.yeni {
+  width: 70vw;
+  padding: 2em;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: scroll;
+}
+
+.button1 {
+  margin-top: 1em;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 8px;
+	cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
